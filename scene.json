@@ -1,0 +1,95 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Halloween 2025",
+    "description": "What's here?",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": ""
+  },
+  "owner": "",
+  "contact": {
+    "name": "coCreator",
+    "email": "martinenterprising@gmail.com"
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "game",
+    "education"
+  ],
+  "scene": {
+    "parcels": [
+      "0,4",
+      "1,4",
+      "2,4",
+      "3,4",
+      "4,4",
+      "0,3",
+      "1,3",
+      "2,3",
+      "3,3",
+      "4,3",
+      "0,2",
+      "1,2",
+      "2,2",
+      "3,2",
+      "4,2",
+      "0,1",
+      "1,1",
+      "2,1",
+      "3,1",
+      "4,1",
+      "0,0",
+      "1,0",
+      "2,0",
+      "3,0",
+      "4,0"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 1",
+      "default": true,
+      "position": {
+        "x": [
+          40,
+          40
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          18,
+          18
+        ]
+      },
+      "cameraTarget": {
+        "x": 33,
+        "y": -7,
+        "z": 35
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "disabled",
+    "portableExperiences": "disabled"
+  },
+  "rating": "A",
+  "skyboxConfig": {
+    "fixedTime": 78000,
+    "transitionMode": 1
+  },
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "99ce65fc-f6ce-4a72-9fbc-c87014d08956"
+  },
+  "worldConfiguration": {
+    "name": "fraldo.dcl.eth"
+  }
+}
